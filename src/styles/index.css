@@ -21,3 +21,25 @@
 .luz{
     box-shadow: 0px 0px 9px 4px yellow
 }
+
+.red {
+    background-Color: red
+}
+
+.yellow {
+    background-Color: yellow
+}
+
+.green {
+    background-Color: green
+}
+
+/*.glow{
+        box-shadow: 0px 0px 7px 15px white;
+        animation: glow 1.5s linear infinite alternate;
+}
+@keyframes glow {
+    to{
+            box-shadow: 0px 0px 30px 20px #7dbbf5;
+    }
+}*/
