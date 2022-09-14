@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -7,6 +6,18 @@
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
     
-    import 'relative/path/to/stylesheet.scss';
+    import 'relative/path/to/stylesheet.scss'; https://github.com/breatheco-de/exercise-traffic-light-react/blob/master/preview.gif
 
 */
+
+.vara{
+    height: 200px;
+    width: 70px;
+    background-color: black;
+    display: flex;
+    margin: auto;
+}
+
+.luz{
+    box-shadow: 0px 0px 9px 4px yellow
+}

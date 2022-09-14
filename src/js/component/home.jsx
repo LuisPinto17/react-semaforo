@@ -6,21 +6,34 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+		<div className="main-contain"> 
+			<div className="vara"></div>
+			<div className="d-flex justify-content-center m-auto"> 
+				<div className="card rounded-3" style={{width: "200px", height: "420px",backgroundColor: "black"}}>
+					<div className="d-flex justify-content-center mt-3">
+						<div className="luz rounded-circle" style={{width: "120px", height: "120px",backgroundColor: "red"}}>
+						
+						</div>
+					</div>
+					<div className="d-flex justify-content-center mt-3">
+						<div className="luz rounded-circle" style={{width: "120px", height: "120px",backgroundColor: "yellow"}}>
+						
+						</div>
+					</div>
+					<div className="d-flex justify-content-center mt-3">
+						<div className="luz rounded-circle" style={{width: "120px", height: "120px",backgroundColor: "green"}}>
+						
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+
 	);
 };
 
 export default Home;
+
+
+
+
